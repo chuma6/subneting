@@ -1,0 +1,205 @@
+@media(max-width:1280px){
+    #buscar input{
+        width: 100px !important;
+    }
+
+    #cuadro-op h1{
+        letter-spacing: 0px;;
+    }
+    #imagen-binaria{
+        width: 280px !important;
+    }
+    .cajas label{
+        font-size: 20px !important;
+    }
+    #banner{
+        top: 40vh;
+        left: 430px;;
+    }
+}
+
+@media(max-width:1150px){
+    #flecha{
+        margin-right: 10px !important;
+    }
+    #flecha1{
+        margin-right: 10px !important;
+    }
+    #subneting-text{
+        margin-top: -280px !important;
+    }
+    #banner{
+        top: 40vh;
+        left: 390px;;
+    }
+}
+
+@media(max-width:1105px){
+    .secciones{
+        width: 100% !important;
+        padding:0px !important;
+    }
+    #texto1,#texto2,#texto3{
+        padding:0px !important;;
+        order:1;
+    }
+
+    #texto1 button{
+        margin-bottom: 50px !important ;
+    }
+
+    #tablas{
+        order:2;
+    }
+    #texto2 button{
+        margin-bottom: 20px !important ;
+    }
+    #imgAmarilla,#cuadro-op{
+        display: none;
+    }
+    #banner{
+        top: 40vh;
+        left: 370px;;
+    }
+}
+
+@media(max-width:1073px){
+    #calcular{
+        display: none;
+    }
+}
+
+@media(max-width:992px){
+    #calcular{
+        display: block;
+    }
+    #buscar input{
+        width: 100% !important;
+    }
+    #menu{
+        flex-grow:1;
+    }
+    #logo{
+        margin-left:10px !important;
+    }
+    #subneting1{
+        margin-left:10px !important;
+    }
+    #flecha{
+        margin-right:65% !important;
+    }
+    #flecha1{
+        margin-right:65% !important;
+    }
+    .cajas{
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+    }
+    #banner{
+        top: 40vh;
+        left: 345px;;
+    }
+}
+@media(max-width:907px){
+    .cajas{
+        width: 100% !important;
+        padding: 15px 35px !important;
+    }
+    #banner{
+        top: 40vh;
+        left: 290px;;
+    }
+}
+@media(max-width:850px){
+    #flecha{
+        margin-right:60% !important;
+    }
+    #flecha1{
+        margin-right:60% !important;
+    }
+    #banner{
+        top: 40vh;
+        left: 240px;;
+    }
+    #particles-js{
+        height: 550px !important;
+    }
+}
+
+@media(max-width:746px){
+    #flecha{
+        margin-right:50% !important;
+    }
+    #flecha1{
+        margin-right:50% !important;
+    }
+    #banner{
+        top: 40vh;
+        left: 200px;;
+    }
+}
+@media(max-width:688px){
+    #banner{
+        top: 40vh;
+        left: 170px;;
+    }
+    #subneting-text{
+        display: none;
+    }
+}
+
+@media(max-width:605px){
+    #flecha{
+        margin-right:40% !important;
+    }
+    #flecha1{
+        margin-right:40% !important;
+    }
+    .botones{
+        width: 100% !important;
+    }
+    .secciones h2 img{
+        width: 40px !important;
+    }
+    #banner{
+        top: 40vh;
+        left: 130px;;
+    }
+}
+
+@media(max-width:508px){
+    #flecha{
+        margin-right:30% !important;
+    }
+    #flecha1{
+        margin-right:30% !important;
+    }
+    #banner{
+        top: 40vh;
+        left:20%;
+    }
+}
+
+@media(max-width:440px){
+    #flecha{
+        margin-right:20% !important;
+    }
+    #flecha1{
+        margin-right:20% !important;
+    }
+
+    header{
+        margin:0px;
+        width: 100% !important;
+        margin-top: -270px;
+    }
+    .cajas{
+        width: 100% !important;
+        padding: 15px 0px !important;
+    }
+    #banner{
+        top: 40vh;
+        left:13%;
+    }
+}
+

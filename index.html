@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subneting</title>
+  <link rel="icon" type="image/x-icon" href="img/mundo.png" />
+  <!-- CSS only -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" media="screen" href="./particles.js-master/demo/css/style.css">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!--MAIN-->
+  <script type="text/javascript" src="animacion.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+  <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid rango mt-2 mb-2">
+
+      <img id="logo" class="me-1" src="img/conexion.png" alt="" width="40px">
+      <a id="subneting1" class="navbar-brand m-0 me-1" href="#">Subneting</a>
+      <img id="flecha" src="img/flecha.png" width="15px" class="mt-2 me-3">
+      <img id="flecha1" src="img/flecha1.png" width="15px me-3">
+
+
+      <button id="menu" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ms-2 me-3">
+            <a id="calcular" class="nav-link active" aria-current="page">Calcular</a>
+          </li>
+          <li class="nav-item ms-2 me-2">
+            <a id="bit" class="nav-link active" aria-current="page">Bit Paridad</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a id="a1" class="nav-link active" aria-current="page">Complemento a 1</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a id="oand" class="nav-link active" aria-current="page">Operacion AND</a>
+          </li>
+        </ul>
+        <form class="d-flex" id="buscar">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <header id="subneting-text" class=" bg-black p-4">
+    <h1 class="rango text-info mb-4 mt-4">Subneting</h1>
+    <p class="rango text-white pb-5">Definido de la forma más simple, el término subnetting hace referencia a la
+      subdivisión
+      de una red en varias
+      subredes. El subneteo permite a los administradores de red, por ejemplo, dividir una red empresarial en varias
+      subredes sin hacerlo público en Internet. Esto se traduce en que el router que establece la conexión entre la
+      red e Internet se especifica como dirección única, aunque puede que haya varios hosts ocultos. Así, el número de
+      hosts que están a disposición del administrador aumenta considerablemente.</p>
+  </header>
+
+  <div id="particles-js"></div>
+
+  <article id="banner">
+    <section class="nav">
+      <h1>SUBNETING</h1>
+      <h3 class="span loader">
+        <span class='m'>I</span>
+        <span class='m'>S</span>
+        <span class='m'>M</span>
+        <span class='m'>A</span>
+        <span class='m'>I</span>
+        <span class='m'>L</span>
+        <span class='m'>&nbsp;</span>
+        <span class='m'>C</span>
+        <span class='m'>H</span>
+        <span class='m'>E</span>
+        <span class='m'>R</span>
+        <span class='m'>F</span>
+        <span class='m'>A</span>
+        <span class='m'>O</span>
+        <span class='m'>U</span>
+        <span class='m'>I</span>
+      </h3>
+    </section>
+  </article>
+
+
+  <section id="background1">
+    <article class="bg-info pb-4 pt-4">
+      <section class="rango row p-4">
+        <section id="tablas" class="secciones col-5">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Bits </th>
+                <th scope="col">Par</th>
+                <th scope="col">Impar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>0000000</td>
+                <td>0000000<strong>0</strong></td>
+                <td>0000000<strong>1</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>1010001</td>
+                <td>1010001<strong>1</strong></td>
+                <td>1010001<strong>0</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>1101001</td>
+                <td>1101001<strong>0</strong></td>
+                <td>1101001<strong>1</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>1111111</td>
+                <td>1111111<strong>1</strong></td>
+                <td>1111111<strong>0</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="texto1" class="col-7 ps-5 p-3 text-black secciones">
+          <h2 class="mb-3"><img src="img/rocket.gif" class="me-2" width="8%">Bit Paridad </h2>
+          <p>Un bit de paridad es un dígito binario que indica si el número de bits con un valor de 1 en un conjunto de
+            bits
+            es par o impar. Los bits de paridad conforman el <strong>método de detección de errores más simple</strong>.
+            Si el digito
+            binario
+            tiene un valor par de 1, entonces el bit de paritat sera par, en caso contrario sera impar.</p>
+          <button type="button" class="botones btn bg-black text-white col-3 btn-section">Calcular <img class="ms-2"
+              src="img/cohete.png" width="25px"></button>
+        </section>
+      </section>
+    </article>
+    <article class="bg-warning pt-4">
+      <section class="rango row p-4">
+        <section id="texto2" class="secciones col-7 p-3 text-black">
+          <h2 class="mb-3"><img src="img/avion.gif" class="me-2" width="8%">Complemento a 1 </h2>
+          <p>El complemento a uno de un número binario se define como el valor obtenido al invertir todos los bits en la
+            representación binaria del número <strong>(intercambiando 0 por 1 y viceversa)</strong>. Los complementos
+            del número se
+            componen como el negativo del número original, en algunas operaciones aritméticas.</p>
+          <button type="button" class="botones btn bg-black text-white col-3 btn-section">Calcular <img class="ms-2"
+              src="img/avion.png" width="25px"></button>
+        </section>
+        <section id="imgAmarilla" class="col-5 secciones">
+          <img src="img/binary1.png" width="320px" id="imagen-binaria" class="ms-5">
+        </section>
+      </section>
+    </article>
+
+    <article class="bg-black pb-4">
+      <section class="rango row p-4">
+        <section id="cuadro-op" class="secciones col-5 text-white row ">
+          <div class="col-4">
+            <h3 id="operacion">&</h3>
+          </div>
+          <div class="col-8">
+            <h1 class="mt-2">101101</h1>
+            <h1 class="">101101</h1>
+          </div>
+          <h1 id="result">= 101101</h1>
+          <h1 id="result2"> 101101</h1>
+        </section>
+        <section id="texto3" class="col-7 ps-5 p-3 mt-3 text-white secciones">
+          <h2 class="mb-3"><img src="img/meteoritos.gif" class="me-2" width="8%">Operacion AND</h2>
+          <p>AND es una de las tres operaciones binarias básicas que se utilizan en la lógica digital. <strong>Se usa
+              para determinar la dirección de red</strong>. La operación lógica AND es la comparación de dos bits que
+            producen los resultados que se muestran a continuación. Observe que solo mediante 1 AND 1 se obtiene 1.</p>
+          <button id="lluvia" type="button"
+            class="botones btn btn-outline-info bg-black text-info col-3 btn-section">Calcular
+            <img class="ms-2" src="img/lluvia.png" width="20px"></button>
+        </section>
+      </section>
+    </article>
+
+    <article id="calculadora" class="bg-black">
+      <div class="rango p-4 row">
+        <h1 class="col-12 text-center mb-4 text-white"><img src="img/calcular.png" width="40px" class="mb-2">
+          CALCULADORA</h1>
+        <hr>
+        <div class="cajas col-6 text-center">
+          <label for="binario"><img src="img/cohete.png" width="30px" class="mb-2"> Calcular Bit Paridad </label>
+          <input id="numero1" type="text" name="Numero 1" placeholder="Numero binario">
+          <button id="bit-paridad" type="button" class="btn btn-outline-info">Bit Paridad</button>
+        </div>
+
+        <div class="cajas col-6 text-center">
+          <label for="binario"><img src="img/avion.png" width="30px" class="mb-2"> Calcular Complemento a 1</label>
+          <input id="numero2" type="text" name="Numero 2" placeholder="Numero binario">
+          <button type="button" class="btn btn-outline-warning" id="complemento1">Complemento a 1</button>
+        </div>
+
+        <button id="and" class="btn btn-outline-secondary">Resultado AND</button>
+      </div>
+
+      <!--BitParidad-->
+      <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <img src="./img/rocket.gif" width="10%" class="rounded me-2" alt="...">
+            <strong class="me-auto">Bit Paridad</strong>
+            <small class="hora"></small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div id="escribe-paridad" class="toast-body"></div>
+        </div>
+      </div>
+      <!--Complemento a 1-->
+      <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast1" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <img src="./img/avion.gif" width="10%" class="rounded me-2" alt="...">
+            <strong class="me-auto">Complemento a 1</strong>
+            <small class="hora"></small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div id="escribe-complemento" class="toast-body">
+          </div>
+        </div>
+      </div>
+      <!--Resultado-->
+      <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToastFinal" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <img src="./img/meteoritos.gif" width="10%" class="rounded me-2" alt="...">
+            <strong class="me-auto">Resultado AND</strong>
+            <small class="hora"></small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div id="escribe-and" class="toast-body">
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer class="bg-dark text-center text-white p-3 ">
+      <span>Desarrollador : <strong>Ismail Cherfoaui</strong> &copy; 2022</span>
+    </footer>
+  </section>
+
+
+  <!-- scripts -->
+  <script src="./particles.js-master/particles.js"></script>
+  <script src="./particles.js-master/demo/js/app.js"></script>
+</body>
+
+</html>
