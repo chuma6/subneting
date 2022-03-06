@@ -44,13 +44,13 @@ window.addEventListener("load",function(){
         mover(body.scrollHeight);
     });
     bitP.addEventListener("click",function(){
-        mover(array[0] - 60);
+        mover(array[0]);
     });
     a1.addEventListener("click",function(){
-        mover(array[0]+array[1] - 60);
+        mover(array[0]+array[1]);
     });
     oand.addEventListener("click",function(){
-        mover(array[0]+array[1]+array[2] - 60);
+        mover(array[0]+array[1]+array[2]);
     });
     
     let botones = this.document.querySelectorAll(".botones");
